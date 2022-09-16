@@ -5,3 +5,5 @@ with MailBox('imap.gmail.com').login('pkzoom94320@gmail.com', 'yomfkroicvfuujlo'
     for msg in mailbox.fetch(A()):
         print(msg.text)
         print(msg)
+
+a = 1
